@@ -1,6 +1,6 @@
 {
   "name": "movielist",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://atharv018.github.io/MovieList/",
