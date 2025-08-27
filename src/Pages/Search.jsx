@@ -52,7 +52,7 @@ function Search() {
             <h1 className="text-3xl font-bold text-white text-center "> {query.charAt(0).toUpperCase() + query.slice(1)}</h1>
             {loading && <p>Loading...</p>}
             {error && <p className='text-red-500'>{error}</p>}
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 pt-2'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2 pt-6'>
                 {movies && movies.map((movie) => (
                     <MovieCard key={movie.id} movie={movie} />
                 ))}

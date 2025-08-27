@@ -32,7 +32,7 @@ function WatchList() {
         </button>
       </form>
             <h1 className="text-3xl font-bold text-white text-center mb-2 ">Next To Watch...</h1>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2 pt-6'>
              {watchlist.map((movie) => (
                 <MovieCard key={movie.id} movie={movie} />
             ))}

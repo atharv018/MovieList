@@ -59,7 +59,7 @@ function MovieCard({movie}) {
 
                 </div>
             </div>
-            <div className="movie-info p-4 flex-1 flex flex-col gap-2">
+            <div className="movie-info p-4 flex-1 flex flex-row justify-between gap-2">
                 <h3 className="text-white text-base m-0">{movie.title}</h3>
                 <h3 className="text-white text-base m-0">{movie.release_date?.split("-")[0]}</h3>
             </div>
