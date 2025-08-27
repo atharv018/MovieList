@@ -8,8 +8,8 @@ function NavBar() {
                 <Link to="/">MOVIELIST</Link>
             </div>
             <div className="flex flex-row gap-7">
-                <NavLink to="/" className={({isActive}) => isActive ? "hover:text-red-600" : " hover:text-red-600"}>Home</NavLink>
                 <NavLink to="/watchlist" className={({isActive}) => isActive ? "hover:text-red-600" : " hover:text-red-600"}>WatchList</NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? "hover:text-red-600" : " hover:text-red-600"}>Home</NavLink>
             </div>
         </nav>
     )
